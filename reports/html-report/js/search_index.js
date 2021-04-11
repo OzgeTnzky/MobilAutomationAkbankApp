@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Mobil Automation Test With Gauge":["specs/example.html"]}};

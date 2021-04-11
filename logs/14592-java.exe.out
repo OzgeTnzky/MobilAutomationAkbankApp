@@ -1,0 +1,47 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 896milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 896"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58332"}
+{"logLevel":"info","message":"Listening on port:58332"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'tests.HomeTest.clickTheNearestAkbank' and 'tests.HomeTest.clickTheNearestAkbank'"}
+{"logLevel":"debug","message":"Found Then click 'En yakın Akbank' in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.AtmControlTest.clickThirdAtm' and 'tests.AtmControlTest.clickThirdAtm'"}
+{"logLevel":"debug","message":"Found Click on the third ATM option in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.AtmControlTest.clickAtmButton' and 'tests.AtmControlTest.clickAtmButton'"}
+{"logLevel":"debug","message":"Found Click 'ATM' at the bottom of screen in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.HomeTest.checkLocation' and 'tests.HomeTest.checkLocation'"}
+{"logLevel":"debug","message":"Found Check that your location is shown correctly in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.AtmControlTest.clickMenuBar' and 'tests.AtmControlTest.clickMenuBar'"}
+{"logLevel":"debug","message":"Found Click menu bar on upper right corner in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.HomeTest.checkTitle' and 'tests.HomeTest.checkTitle'"}
+{"logLevel":"debug","message":"Found Check that {} is seen in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.DirectionsControlTest.isStartButtonVisible' and 'tests.DirectionsControlTest.isStartButtonVisible'"}
+{"logLevel":"debug","message":"Found Check Google Maps is opened for directions in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.DirectionsControlTest.clickDirections' and 'tests.DirectionsControlTest.clickDirections'"}
+{"logLevel":"debug","message":"Found Click 'Yol Tarifi' in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tCheck that {} is seen : public void checkTitle(String key)"}
+{"logLevel":"debug","message":"\tThen click 'En yakın Akbank' : public void clickTheNearestAkbank()"}
+{"logLevel":"debug","message":"\tClick on the third ATM option : public void clickThirdAtm()"}
+{"logLevel":"debug","message":"\tCheck Google Maps is opened for directions : public void isStartButtonVisible()"}
+{"logLevel":"debug","message":"\tClick 'Yol Tarifi' : public void clickDirections()"}
+{"logLevel":"debug","message":"\tClick menu bar on upper right corner : public void clickMenuBar()"}
+{"logLevel":"debug","message":"\tCheck that your location is shown correctly : public void checkLocation()"}
+{"logLevel":"debug","message":"\tClick 'ATM' at the bottom of screen : public void clickAtmButton()"}
+Nis 11, 2021 12:27:20 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Check that {} is seen' using 'class tests.HomeTest.checkTitle"}
+{"logLevel":"debug","message":"Executing 'Then click 'En yakın Akbank'' using 'class tests.HomeTest.clickTheNearestAkbank"}
+{"logLevel":"debug","message":"Executing 'Check that your location is shown correctly' using 'class tests.HomeTest.checkLocation"}
+{"logLevel":"debug","message":"Executing 'Click 'ATM' at the bottom of screen' using 'class tests.AtmControlTest.clickAtmButton"}
+{"logLevel":"debug","message":"Executing 'Click menu bar on upper right corner' using 'class tests.AtmControlTest.clickMenuBar"}
+{"logLevel":"debug","message":"Executing 'Click on the third ATM option' using 'class tests.AtmControlTest.clickThirdAtm"}
+{"logLevel":"debug","message":"Executing 'Click 'Yol Tarifi'' using 'class tests.DirectionsControlTest.clickDirections"}
+{"logLevel":"debug","message":"Executing 'Check Google Maps is opened for directions' using 'class tests.DirectionsControlTest.isStartButtonVisible"}
